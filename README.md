@@ -1,14 +1,13 @@
 # Customer Churn Risk Modeling
 
 ## Overview
-Customer churn directly impacts revenue, customer lifetime value, and long-term growth.  
-This project implements an end-to-end churn risk modeling system that combines data analysis, machine learning, and cloud infrastructure to help organizations identify customers at risk of leaving and surface insights that support proactive retention decisions.
+Customer churn has a direct impact on revenue, customer lifetime value, and long-term growth. This project implements a churn risk modeling system that combines data analysis, machine learning, and cloud infrastructure to help organizations identify customers at risk of leaving and support proactive retention decisions.
 
 The system focuses on producing **decision-ready outputs** rather than model accuracy alone. Predictions are stored, visualized, and optionally surfaced through alerts so that business and analytics teams can act on them without needing to interact with raw model artifacts.
 
 ## Problem Context
 Most customer churn problems are not purely predictive, they are operational.  
-Teams need to understand:
+In practice, teams need to understand:
 - **Who** is at risk of leaving
 - **Why** certain customers churn more than others
 - **How** churn risk changes across customer segments
